@@ -4,10 +4,6 @@
     font-family: "Kanit", sans-serif;
     color: white;
 }
-
-.nav-area{
-}
-
 .item{
     margin: 10px;
     text-align: center;
@@ -26,9 +22,7 @@
 .grid-template{
     grid-template:
     "header" 140px
-    "section-1" 580px
-    "section-2" 600px
-    "section-3" 600px
+    "section-1" 650px
     "footer" 200px
     / 1fr;
 }
@@ -51,20 +45,6 @@
     grid-area: section-1;
 }
 
-.section-2{
-    grid-area: section-2;
-}
-
-.section-3{
-    background-color: #ff800000;
-    display: flex;
-    flex-direction: column;
-    grid-area: section-3;
-    color: black !important;
-    grid-area: section-3;
-    padding: 20px;
-}
-
 .footer{
     display: flex;
     flex-direction: column;
@@ -73,6 +53,7 @@
     grid-area: header;
     background-color: #F6F6F6;
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    grid-area: footer;
     grid-area: footer;
 }
 
@@ -90,61 +71,14 @@
     padding: 10px;
 }
 
-.container-mais-vendidos{
-    padding: 10px;
-    margin: 10px;
-    display: block;
-    height: 100%;
+.form-demanda{
     background-color: #F6F6F6;
     border-radius: 20px;
     color: black !important;
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    padding: 30px;
 }
 
-.produtos-destaque{
-    background-color: #a5a5a5;
-    border-radius: 20px;
-    height: 400px;
-    width: 400px;
-    box-shadow: 5px 5px 20px rgb(0, 0, 0);
-}
-
-.container-mais-vendidos2{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.div-materiais{
-    background-color: #a5a5a5;
-    border-radius: 20px;
-    height: 400px;
-    width: 400px;
-    box-shadow: 5px 5px 20px rgb(0, 0, 0);
-}
-
-.p-section-3{
-    color: black;
-    font-size: 14px;
-    width: 60%;
-}
-
-.content-materias{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    gap: 80px;
-    align-items: center;
-}
-
-.botão-esquerdo img{
-    width: 40px;
-    height: 40px;
-}
-
-.botão-direita img{
-    width: 40px;
-    height: 40px;
+.form-color{
+    color: black !important;
 }
