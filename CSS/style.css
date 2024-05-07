@@ -5,9 +5,6 @@
     color: white;
 }
 
-.nav-area{
-}
-
 .item{
     margin: 10px;
     text-align: center;
@@ -35,13 +32,13 @@
 
 .header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     grid-area: header;
     background-color: #F6F6F6;
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
-
+    gap: 50px;
 }
 
 .section-1{
@@ -52,6 +49,11 @@
 }
 
 .section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
     grid-area: section-2;
 }
 
@@ -74,6 +76,11 @@
     background-color: #F6F6F6;
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
     grid-area: footer;
+    font-size: 12px;
+}
+
+.footer-color{
+    color: black;
 }
 
 .nav_item{
@@ -86,8 +93,12 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8000', endColorstr='#ff9500',GradientType=1 );
     border-radius: 20px;
     margin: 40px;
-    list-style-type: none;
     padding: 10px;
+    font-size: 16px;
+}
+
+.nav-item-2{
+    text-decoration: none;
 }
 
 .container-mais-vendidos{
@@ -109,6 +120,21 @@
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
 }
 
+.destaque-1{
+    background-image: url(../Img/impressao1.png);
+    background-size: cover;
+}
+
+.destaque-2{
+    background-image: url(../Img/impressao2.png);
+    background-size: cover;
+}
+
+.destaque-3{
+    background-image: url(../Img/impressao3.png);
+    background-size: cover;
+}
+
 .container-mais-vendidos2{
     display: flex;
     flex-direction: row;
@@ -117,12 +143,40 @@
     gap: 30px;
 }
 
+.logopng{
+    background-color: #a5a5a500;
+    height: 110px;
+    width: 110px;
+    background-image: url(../Img/logoCompleta.png);
+    background-size: cover;
+}
+
+.carrinho{
+    background-color: #a5a5a500;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Img/carrinho.png);
+    background-size: cover;
+}
+
+.menu{
+    background-color: #a5a5a500;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Img/menu.png);
+    background-size: cover;
+}
+
 .div-materiais{
     background-color: #a5a5a5;
     border-radius: 20px;
     height: 400px;
     width: 400px;
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
+
+    background-image: url(../Img/pla.jpg);
+    background-size: cover;
+
 }
 
 .p-section-3{
